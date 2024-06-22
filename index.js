@@ -27,7 +27,7 @@ function toggle1(){
     bst2
 let a=document.getElementById("img1");
  r1=Math.floor(Math.random()*6+1);
-let a1="dice-"+r1+".png";
+let a1="./assetss/dice-"+r1+".png";
 a.setAttribute("src",a1);
 check();
 hi.innerHTML="Player 2's Turn";
@@ -41,7 +41,7 @@ function toggle2()
     if(c!=0){
     let b=document.getElementById("img2");
      r2=Math.floor(Math.random()*6+1);
-let a2="dice-"+r2+".png";
+let a2="./assetss/dice-"+r2+".png";
 b.setAttribute("src",a2);
 check();
 hi.innerHTML="Player 1's Turn";
